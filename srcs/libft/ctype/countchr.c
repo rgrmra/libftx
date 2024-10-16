@@ -1,27 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ctype.h                                         :+:      :+:    :+:   */
+/*   countchr.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rde-mour <rde-mour@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/08 13:16:06 by rde-mour          #+#    #+#             */
-/*   Updated: 2024/10/16 12:45:54 by rde-mour         ###   ########.org.br   */
+/*   Created: 2024/10/16 12:46:09 by rde-mour          #+#    #+#             */
+/*   Updated: 2024/10/16 12:47:54 by rde-mour         ###   ########.org.br   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_CTYPE_H
-# define FT_CTYPE_H
+int	countchr(const char *line, int c)
+{
+	int	i;
 
-int	check(char *str, int (*f)(int));
-int	countchr(char *str, int c);
-int	ft_isalnum(int c);
-int	ft_isalpha(int c);
-int	ft_isascii(int c);
-int	ft_isdigit(int c);
-int	ft_isprint(int c);
-int	ft_isspace(int c);
-int	ft_tolower(int c);
-int	ft_toupper(int c);
-
-#endif
+	i = 0;
+	while (*line)
+	{
+		if (*line == c)
+			i++;
+		line++;
+	}
+	return (i);
+}

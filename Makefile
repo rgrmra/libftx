@@ -6,7 +6,7 @@
 #    By: rde-mour <rde-mour@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/12 10:01:10 by rde-mour          #+#    #+#              #
-#    Updated: 2024/09/13 14:29:53 by rde-mour         ###   ########.org.br    #
+#    Updated: 2024/10/16 12:48:10 by rde-mour         ###   ########.org.br    #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,6 +27,7 @@ FILES				= libft/ctype/ft_isalnum.c \
 					  libft/ctype/ft_isspace.c \
 					  libft/ctype/ft_tolower.c \
 					  libft/ctype/ft_toupper.c \
+					  libft/ctype/countchr.c \
 					  libft/ctype/check.c \
 					  libft/stdlib/ft_atoi.c \
 					  libft/stdlib/ft_atol.c \
