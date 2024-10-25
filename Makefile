@@ -6,7 +6,7 @@
 #    By: rde-mour <rde-mour@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/12 10:01:10 by rde-mour          #+#    #+#              #
-#    Updated: 2024/10/16 12:48:10 by rde-mour         ###   ########.org.br    #
+#    Updated: 2024/10/25 17:37:24 by rde-mour         ###   ########.org.br    #
 #                                                                              #
 # **************************************************************************** #
 
@@ -84,7 +84,10 @@ FILES				= libft/ctype/ft_isalnum.c \
 					  printf/ft_build_bonus.c \
 					  arraylist/arraylist.c \
 					  getenv/getenv.c \
-					  getenv/getenv_utils.c
+					  getenv/getenv_utils.c \
+					  gc/garbagecollector.c \
+					  gc/garbagecollector_utils.c
+
 SRCSDIR				= ./srcs
 OBJSDIR				= ./objs
 
